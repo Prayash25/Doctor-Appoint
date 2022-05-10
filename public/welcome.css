@@ -1,0 +1,19 @@
+#header {
+    background-image: url(https://wallpapercave.com/wp/wp2469709.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position-y: 63px!important; */
+   
+    height:95%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    background-position: 0px -50px;
+    opacity: 0.9;
+    text-align: center;
+    /* justify-content: center; */
+    color: rgb(250, 13, 13);  
+    font-weight: 999;
+    font-size: larger;
+    
+}

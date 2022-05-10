@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Semantic-UI Modal Basic Type</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <link  href=
+"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+           rel="stylesheet"/>
+    <script src=
+"https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js">
+    </script>
+    <style>
+      .icon {
+        margin: 16px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="ui container">
+      <center>
+        <div class="ui header green">
+          <h1>
+            GeeksforGeeks
+          </h1>
+        </div>
+        <strong>
+          Semantic UI Modal Basic Type
+        </strong>
+      </center>
+  
+      <div class="ui segment">
+        <h1>Welcome to GeeksforGeeks</h1>
+        <p>Find the best programming tutorials here.</p>
+  
+        <button class="ui button green" 
+                onclick="openModal()">
+          Open Modal
+        </button>
+        <div class="ui modal">
+          <div class="ui icon header">
+            <i class="web icon"></i>
+            GeeksforGeeks
+          </div>
+          <div class="content">
+            <p>Welcome to GeeksforGeeks. This is a modal.</p>
+  
+            <br />
+            <input type="checkbox">
+          </div>
+          <div class="actions">
+            <div class="ui red basic cancel inverted button">
+              <i class="close icon"></i>
+              Close
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const openModal = () => {
+        $('.ui.modal').modal('show')
+      }
+    </script>
+    <img src="image/doc1.jpg" alt="">
+  </body>
+</html>
